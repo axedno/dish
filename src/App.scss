@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color:red;
+}
+
+input[type=text] {
+  padding: 10px;
+}
+textarea[name=text] {
+  padding: 10px;
+}
+
+@import "style/DisplayFavorites/DisplayFavorites";
+@import "style/CrateDish/CreateDish";
+@import "style/Pagination/Pagination";

@@ -1,0 +1,33 @@
+.display{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &__block{
+    width: 22%;
+  }
+  &__img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  &__title{
+    text-align: left;
+    margin-top: 20px;
+  }
+  &__text{
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__btn{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+}
